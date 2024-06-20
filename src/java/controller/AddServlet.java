@@ -24,7 +24,7 @@ public class AddServlet extends HttpServlet {
             out.println("<title>Servlet AddServlet</title>");
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet AddServlet at " + request.getContextPath() + "</h1>");
+            out.println("<h1>Servlet AServlet at " + request.getContextPath() + "</h1>");
             out.println("</body>");
             out.println("</html>");
         }
@@ -34,6 +34,7 @@ public class AddServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         processRequest(request, response);
+        
     }
 
     @Override
